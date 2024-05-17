@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Narnoor:wght@400;500;600;700;800&family=Poetsen+One&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.elemento {
+    margin-bottom: 40px; /* Adiciona uma margem inferior de 20 pixels */
+    padding: 30px; /* Adiciona preenchimento interno de 10 pixels */
+   
+  }
+.outro-elemento:hover{
+    margin-bottom: 40px; /* Adiciona uma margem inferior de 20 pixels */
+    padding: 30px; /* Adiciona preenchimento interno de 10 pixels */
+    transition:  0.7s;
+}
+
+
+* {
+    padding: 0;
+    margin-bottom: 5px;
+    font-family: "Inter", sans-serif;
+}
+h3{
+    padding: 0;
+    margin-bottom:10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+p{
+    padding-top: 10px ;
+    margin-bottom:20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.jogos{
+    text-align: center;
+    padding: 0;
+    margin-bottom:10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.caption1{
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+}
+.caption2{
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -50px ;
+    
+}
+
+figcaption .caption2{
+    text-align: center;
+    font-weight: 400;
+    
+  
+}
+/*início da navbar*/
+header{
+    background-color: #000000;
+    box-shadow: 0px 3px 10px #464646;
+    border-radius: 15px;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 1.5rem 1rem;
+}
+
+.logo{
+    margin-top: 160px;
+    margin-right: 60px;
+    display:flex;
+    width: 100px; 
+    height: 100px;
+    position: relative;
+   
+    
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 0 10px;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none; /*serve para tirar o sublinhado dos itens*/
+    font-size: 1.15rem ;
+    color: #fff;
+    font-weight: 400;
+    align-items: center;
+    margin: 200px;
+}
+
+
+.login-buttom button{
+    border:none;
+    background-color:#13121d;
+
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+/*fim da navbar*/
+
+/*início do card interativo com a api*/
+**{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.dbd-logo{
+    margin-bottom:-40px;
+}
+.background-assasino{
+    background-image: url(https://deadbydaylight.com/static/a5cdc5db3804f817df112184c81f5ead/93f85/dbd-gallery-background.jpg);
+    border-radius: 25px;
+}
+
+.background-sobrevivente{
+    background-image: url(https://i.redd.it/jx5s7tey84ha1.jpg);
+    border-radius: 25px;
+}
+
+.body-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /*definir uma altura minima para os elementos desse body - 100vh nessa situação deixa os elementos mais pro centro da página*/
+    
+}
+
+.card{
+    display: flex;
+    width: 360px;
+    height: 450px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px, 35px, 80px rgba(0, 0, 0, 0.15);  
+    transition: 0.5s;
+    margin: 20px;
+}
+.card2{
+    display: flex;
+    width: 360px;
+    height: 450px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px, 35px, 80px rgba(0, 0, 0, 0.15);  
+    transition: 0.5s;
+    margin: 20px;
+}
+.card3{
+    display: flex;
+    width: 360px;
+    height: 450px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px, 35px, 80px rgba(0, 0, 0, 0.15);  
+    transition: 0.5s;
+    margin: 20px;
+}
+.card4{
+    display: flex;
+    width: 360px;
+    height: 450px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px, 35px, 80px rgba(0, 0, 0, 0.15);  
+    transition: 0.5s;
+    margin: 20px;
+}
+.card5{
+    display: flex;
+    width: 360px;
+    height: 450px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px, 35px, 80px rgba(0, 0, 0, 0.15);  
+    transition: 0.5s;
+    margin: 20px;
+}
+.card6{
+    display: flex;
+    width: 360px;
+    height: 450px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0px, 35px, 80px rgba(0, 0, 0, 0.15);  
+    transition: 0.5s;
+    margin: 20px;
+}
+
+
+
+img{
+    height:45%;
+    padding-top: 10px;
+    margin-left: 80px;
+    margin-top: -55px;
+}
+
+ .empresa-logo{
+    border-radius: 20px;
+    margin-left: 3px;
+    border: #000000;
+    width: 100%;
+    height: 75%;
+}
+
+.dbd-logo{
+    padding: 100px;
+    width:100% ;
+    height: auto;
+    margin-left: -100px;
+    margin-right: 150px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px; /*cria um espaço entre titulo texto e imagem*/
+    position: absolute;
+    top: 250px;
+    width: 90%;
+    padding: 0px 10px;
+    text-align: center;
+    height: 160px;
+    overflow: hidden; /*esconde oque esta por cima*/
+}
+.card2 .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px; /*cria um espaço entre titulo texto e imagem*/
+    position: absolute;
+    top: 250px;
+    width: 90%;
+    padding: 0px 10px;
+    text-align: center;
+    height: 160px;
+    overflow: hidden; /*esconde oque esta por cima*/
+}
+.card3 .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px; /*cria um espaço entre titulo texto e imagem*/
+    position: absolute;
+    top: 250px;
+    width: 90%;
+    padding: 0px 10px;
+    text-align: center;
+    height: 160px;
+    overflow: hidden; /*esconde oque esta por cima*/
+}
+.card4 .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px; /*cria um espaço entre titulo texto e imagem*/
+    position: absolute;
+    top: 250px;
+    width: 90%;
+    padding: 0px 10px;
+    text-align: center;
+    height: 160px;
+    overflow: hidden; /*esconde oque esta por cima*/
+}
+.card5 .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px; /*cria um espaço entre titulo texto e imagem*/
+    position: absolute;
+    top: 250px;
+    width: 90%;
+    padding: 0px 10px;
+    text-align: center;
+    height: 160px;
+    overflow: hidden; /*esconde oque esta por cima*/
+}
+.card6 .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px; /*cria um espaço entre titulo texto e imagem*/
+    position: absolute;
+    top: 250px;
+    width: 90%;
+    padding: 0px 10px;
+    text-align: center;
+    height: 160px;
+    overflow: hidden; /*esconde oque esta por cima*/
+}
+
+/*esse hover de baixo vai servir para agora sim mostrar o texto que tem que aparacer pois se voce tirar essa parte vai perceber que o texto do sobrevivente nao vai aparacer*/
+.card:hover .content{
+    top: 140px;
+    height:400px;
+    transition: 0.7s;
+}
+.card2:hover .content{
+    top: 140px;
+    height:400px;
+    transition: 0.7s;
+}
+.card3:hover .content{
+    top: 140px;
+    height:400px;
+    transition: 0.7s;
+}
+.card4:hover .content{
+    top: 140px;
+    height:400px;
+    transition: 0.7s;
+}
+.card5:hover .content{
+    top: 140px;
+    height:400px;
+    transition: 0.7s;
+}
+.card6:hover .content{
+   top: 140px;
+    height:400px;
+    transition: 0.7s;
+}
+
+/*personalizar botão do saiba mais*/
+.card .read-more{
+    background: linear-gradient(90deg, #2f3030,#000000);
+    margin-left: 10px;
+    margin-top: -19px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px 15px 10px;
+    
+}
+.card2 .read-more{
+    background: linear-gradient(90deg, #2f3030,#000000);
+    margin-left: 10px;
+    margin-top: -19px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px 15px 10px;
+    
+}
+.card3 .read-more{
+    background: linear-gradient(90deg, #2f3030,#000000);
+    margin-left: 10px;
+    margin-top: -19px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px 15px 10px;
+    
+}
+.card4 .read-more{
+    background: linear-gradient(90deg, #2f3030,#000000);
+    margin-left: 10px;
+    margin-top: -19px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px 15px 10px;
+    
+}
+.card5 .read-more{
+    background: linear-gradient(90deg, #2f3030,#000000);
+    margin-left: 10px;
+    margin-top: -19px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px 15px 10px;
+    
+}
+.card6 .read-more{
+    background: linear-gradient(90deg, #2f3030,#000000);
+    margin-left: 10px;
+    margin-top: -19px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px 15px 10px;
+    
+}
+
+/*fim do card interativo com a api*/
+
+/*Começo da estilização da tabela*/
+.wikitable-sortable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+  th, td {
+    border: 1px solid #0c0c0c;
+    text-align: left;
+    padding: 8px;
+    
+  }
+
+  th {
+    background-color: #2f3030;
+  }
+
+  /*fim da estilização da tabela*/
+
+/*começo footer*/
+footer{
+    background-color: #000000;
+    
+}
+
+footer .container {
+    display: flex;
+    color:white;
+    
+    
+}
+
+footer .container ul {
+    width: 100%;
+    list-style: none;
+    margin-right: 200px;
+    
+}
+
+footer .container h2{
+    margin-bottom: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+footer .container ul > p{
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: 20px;
+       
+}
+
+footer .container a{
+    color: #fff; 
+    text-decoration: none;
+    padding: 1.5rem 4 rem;
+    font-weight: 200;
+    margin-right: 10px;
+    
+}
+
+
+footer .container li{
+    margin: 10px 0;
+    font-weight: 200;
+    margin-left: 20px;
+    
+}
+/*fim do footer*/
+
+
+/*responsividade ao minimizar a página, acessibilidade para mobile*/
+@media screen and (max-width: 730px) {
+    .nav-bar{
+        padding: 1.5rem 4 rem;
+    }
+
+    .nav-item {
+        display:none
+    }
+
+    .login-buttom{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none ;
+        cursor:pointer /*troca o cursor pela maozinha*/
+
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+
+    .open{
+        display: block;
+    }
+    /*responsividade do footer*/
+    footer .container{
+        /*direção dos itens um embaixo do outro - responsivo*/
+        
+        flex-direction: column;
+    }
+    
+    footer .container ul{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+    
+
